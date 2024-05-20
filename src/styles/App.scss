@@ -1,0 +1,25 @@
+@font-face {
+   font-family: 'GothamPro-Black';
+   src: url('../../public/fonts/ofont.ru_GothamPro.ttf') format('ttf');
+   font-weight: 700;
+   font-style: normal;
+}
+.App {
+   background-color: rgba(19, 18, 18, .8);
+
+   .cases {
+      display: flex;
+      justify-content: center;
+   }
+   
+   .container {
+      width: 1550px;
+   }
+}
+
+.cases-list__title {
+   color: white;
+   font-family: GothamPro-Black;
+   font-size: 150px;
+   letter-spacing: 2px;
+}

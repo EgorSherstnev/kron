@@ -1,0 +1,19 @@
+.cases-list {
+   padding: 20px;
+
+   .ant-card {
+      min-height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+
+   &__item-features-title {
+      min-height: 22px;
+   }
+}
+
+img {
+   height: 486px;
+   object-fit: contain;
+}
